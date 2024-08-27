@@ -19,5 +19,5 @@ echo "clone the login app"
 sudo git clone https://github.com/Aj-ji/EMD.git /var/www/html
 sleep 5
 
-echo "pramodh has ended"
+echo "pramodh has ended the session"
 
