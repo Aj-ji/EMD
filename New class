@@ -16,7 +16,7 @@ table, th, td {
     <th>Time</th>
   </tr>
   <tr>
-    <th>aws</th>
+    <th>azure</th>
     <th>Ravi</th>
     <th>10 AM</th>
   </tr>
