@@ -15,6 +15,11 @@ table, th, td {
     <th>Trainer</th>
     <th>Time</th>
   </tr>
+  <tr>
+    <th>aws</th>
+    <th>Ravi</th>
+    <th>10 AM</th>
+  </tr>
 </table>
 
 <p>For more info contact support.</p>
