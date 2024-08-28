@@ -16,8 +16,8 @@ sudo rm -rf /var/www/html
 sleep 5
 
 echo "clone the login app"
-sudo git clone https://github.com/Aj-ji/EMD.git /var/www/html
+sudo git clone https://github.com/Aj-ji/EMD.git
 sleep 5
 
-echo "pramodh has ended the session"
+echo "Madhav completed the github"
 
