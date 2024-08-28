@@ -15,11 +15,18 @@ table, th, td {
     <th>Trainer</th>
     <th>Time</th>
   </tr>
+  HEAD
     <tr>
     <th>aws</th>
     <th>ravi</th>
     <th>10 AM</th>
   </tr>  
+  <tr>
+    <th><azure/th>
+    <th>ravi</th>
+    <th>9 AM</th>
+  </tr>
+    
 </table>
 
 <p>For more info contact support.</p>
