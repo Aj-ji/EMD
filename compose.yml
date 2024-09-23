@@ -1,0 +1,16 @@
+services:
+  svc1:
+    image: pramodh627/bmp
+    ports:
+      - "8091:80"
+  svc2:
+    build: ./food
+    image: pramodh627/rest
+    ports:
+      - "8092:80"
+  svc3:
+    image: nginx
+    ports:
+      - "8093:80"
+    volumes:
+      - /home/ubuntu/services/ecomm:/usr/share/nginx/html
