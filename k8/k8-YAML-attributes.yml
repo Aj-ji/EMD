@@ -1,0 +1,11 @@
+# In k8's the top lvel items/attributes
+
+apiversion:
+kind:
+metadata:
+spec:
+
+apiversion: #key: values
+kind: #key: values
+metadata:  #dictionary
+spec:   #lists & dictionary
