@@ -1,0 +1,47 @@
+# objects in k8s
+#Key Values
+#Dictionaries/Maps
+#Arrays/Lists
+#etc
+
+# Define Key values
+
+key: values
+name: pramodh
+city: tiruvuru
+mobile: 8639664984
+
+# Not a key values
+
+key:values
+
+name: ponnu
+ color: white
+ breed: pom
+
+ #here the space is missing key: values(16 line)name color and breed are not in same line(indundation)
+
+ #Dictionary/Maps (method to be followed)
+ # Set of properties grouped together
+ person:
+   name: Gopal
+   city: TVR
+   mobile: 7989610345
+
+ #Dictionary/Maps (method not to be followed)
+  person:
+  name: krishna
+  city: texas
+  mobile: 1234567878
+
+  ## spacing is missing for person proprties which are name city and mobile
+
+  # arrays/Lists
+ # Collection - combination of "lists & Dictionaries"
+ person: # Dictionaries
+   name: Gopal
+   city: TVR
+   mobile: 7988610345
+   hobbies: # lists
+     - Cricket
+     - playing with ponnu
