@@ -1,12 +1,13 @@
 #pod template gor k8s 
 
 apiVersion: v1
-kind: pod
-metadata: 
-  name: ponu
+kind: Pod
+metadata:
+  name: nginx-pod1
 spec:
-  container:
-  - name: pom
+  containers:
+  - name: nginx
     image: nginx
     ports:
-    - containerport: 80
+    - containerPort: 80
+
