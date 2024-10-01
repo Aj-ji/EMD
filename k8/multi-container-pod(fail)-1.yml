@@ -1,0 +1,17 @@
+#pod template for multi container in k8s 
+
+apiversion: v1
+kind: pod
+metadata: 
+  name: multipod
+spec:
+  container:
+  - name: nginx1
+    image: nginx
+    ports:
+    - containerport: 80
+
+  - name: nginx2
+    image: nginx
+    ports:
+    - containerport: 80
