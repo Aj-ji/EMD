@@ -1,9 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: frontend nginx
-  labels:
-    tier: frontend
+  name: nginx
 spec:
   # modify replicas according to your case
   replicas: 1
