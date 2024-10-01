@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: nginx
 spec:
-  # modify replicas according to your case
+  # 1 copy of nginx should exists at all times
   replicas: 1
   selector:
     matchLabels:
