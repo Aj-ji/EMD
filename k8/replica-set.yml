@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   # 1 copy of nginx should exists at all times
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       tier: frontend
