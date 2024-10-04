@@ -7,11 +7,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      tier: frontends
+      tier: frontend
   template:
     metadata:
       labels:
-        tier: frontends
+        tier: frontend
     spec:
       containers:
       - name: nginx
