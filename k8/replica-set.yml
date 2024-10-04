@@ -3,15 +3,15 @@ kind: ReplicaSet
 metadata:
   name: nginx
 spec:
-  # 1 copy of nginx shouldss exists at all times
+  # 1 copy of nginx should exists at all times
   replicas: 1
   selector:
     matchLabels:
-      tier: frontendss
+      tier: frontendes
   template:
     metadata:
       labels:
-        tier: frontendss
+        tier: frontendes
     spec:
       containers:
       - name: nginx
