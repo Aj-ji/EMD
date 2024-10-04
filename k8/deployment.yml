@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         # Apply this label to pods and default
-        # the Deployment label selector to this value
+        # the Deployments label selector to this value
         app: nginx
     spec:
       containers:
