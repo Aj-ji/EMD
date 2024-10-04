@@ -1,0 +1,13 @@
+#pod template gor k8s 
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nihan
+spec:
+  containers:
+  - name: ponu
+    image: nginx
+    ports:
+    - containerPort: 80
+

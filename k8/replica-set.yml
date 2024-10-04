@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx
+spec:
+  # 1 copy of nginx shouldss exists at all times
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: frontendss
+  template:
+    metadata:
+      labels:
+        tier: frontendss
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
