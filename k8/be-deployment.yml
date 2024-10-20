@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-container
-          image: pramodh627/lms-bes
+          image: ravi2krishna/lms-be
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
@@ -27,9 +27,7 @@ spec:
                 secretKeyRef:
                   name: postgres-secret
                   key: password
-
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
